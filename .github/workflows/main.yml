@@ -7,7 +7,7 @@ sast_scan:
 name: Run Bandit Scan
 runs-ons: ubuntu-latest
 
-```
+
 steps:
 - name: Checkout code
   uses: action/checkout@v2
@@ -22,4 +22,4 @@ steps:
 - name: Run Bandit Scan
   run: bandit -r .
 
-```
+
